@@ -37,7 +37,6 @@ class Header extends React.Component {
             </Link>
           </div>
           <MenuMobile active={this.state.menuActive} />
-          <Menu />
           <Hamburger toggleMenu={this.toggleMenu} />
         </div>
       </div>
