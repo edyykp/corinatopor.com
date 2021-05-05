@@ -1,10 +1,10 @@
 ---
-title: 'Home'
+title: "Home"
 intro_image: "/images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Hugo Business Theme.
+# Welcome to Corina, the simplest way to start publishing with Gatsby.
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus praesent nibh suscipit nisl quis. Tempus, nullam fermentum porttitor nisl, natoque pharetra. Amet tincidunt nunc interdum et suspendisse elementum faucibus vitae. Pellentesque quisque ac diam pellentesque laoreet aliquet eu. Iaculis odio eleifend mattis blandit scelerisque et pellentesque. Ut consequat, purus

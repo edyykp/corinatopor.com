@@ -3,7 +3,7 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 module.exports = {
   siteMetadata: {
     title: "Corina Topor",
-    description: "HEALTH COACH",
+    description: "Health Coach",
   },
   plugins: [
     "gatsby-plugin-sass",
