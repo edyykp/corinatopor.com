@@ -1,5 +1,6 @@
 .intro {
   display: flex;
+  background: linear-gradient(180deg, #fbecef 80%, #ffffff 20%);
   justify-content: flex-start;
   align-items: center;
   padding-top: 60px;
@@ -44,4 +45,15 @@
 .intro-small {
   padding-top: 100px;
   padding-bottom: 30px;
+}
+
+.introContainer {
+  background-image: url("/images/intro.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  margin-top: -200px;
 }
