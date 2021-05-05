@@ -1,6 +1,6 @@
 .sub-footer {
-  background: $sub-footer-background-color;
-  color: $sub-footer-text-color;
+  background: #fbecef;
+  color: #d2d2d5;
   padding-top: 15px;
   padding-bottom: 15px;
   @include media-breakpoint-up(md) {
@@ -10,9 +10,10 @@
   .sub-footer-inner {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     @include media-breakpoint-up(md) {
-      flex-direction: row;
+      flex-direction: column;
     }
   }
   .copyright {
