@@ -36,7 +36,10 @@ class Header extends React.Component {
               <p>{this.props.data.site.siteMetadata.description}</p>
             </Link>
           </div>
-          <MenuMobile active={this.state.menuActive} />
+          <Menu active={this.state.menuActive} />
+          {window.innerWidth <= 1300 && (
+            <MenuMobile active={this.state.menuActive} />
+          )}
           <Hamburger toggleMenu={this.toggleMenu} />
         </div>
       </div>
