@@ -30,12 +30,6 @@ class Header extends React.Component {
               <p>{this.props.data.site.siteMetadata.description}</p>
             </Link>
           </div>
-          <div className="logo-mobile">
-            <Link to="/">
-              <h1>{this.props.data.site.siteMetadata.title}</h1>
-              <p>{this.props.data.site.siteMetadata.description}</p>
-            </Link>
-          </div>
           <Menu active={this.state.menuActive} />
           {window.innerWidth <= 1300 && (
             <MenuMobile active={this.state.menuActive} />
